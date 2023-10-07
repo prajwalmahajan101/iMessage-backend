@@ -1,0 +1,28 @@
+{
+  "name": "imessage-clone-backend",
+  "version": "1.0.0",
+  "description": "iMessage Clone App with GraphQ",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prajwalmahajan101/iMessage-backend.git"
+  },
+  "keywords": [
+    "GraphQl",
+    "Appollo-Server",
+    "Messaging",
+    "App",
+    "iMessage",
+    "Clone"
+  ],
+  "author": "Prajwal Mahajan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prajwalmahajan101/iMessage-backend/issues"
+  },
+  "homepage": "https://github.com/prajwalmahajan101/iMessage-backend#readme",
+  "type": "module"
+}
