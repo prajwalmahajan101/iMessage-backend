@@ -1,28 +1,51 @@
 {
-  "name": "imessage-clone-backend",
-  "version": "1.0.0",
-  "description": "iMessage Clone App with GraphQ",
-  "main": "dist/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/prajwalmahajan101/iMessage-backend.git"
-  },
-  "keywords": [
-    "GraphQl",
-    "Appollo-Server",
-    "Messaging",
-    "App",
-    "iMessage",
-    "Clone"
-  ],
-  "author": "Prajwal Mahajan",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/prajwalmahajan101/iMessage-backend/issues"
-  },
-  "homepage": "https://github.com/prajwalmahajan101/iMessage-backend#readme",
-  "type": "module"
+	"name": "imessage-clone-backend",
+	"version": "1.0.0",
+	"description": "iMessage Clone App with GraphQL",
+	"main": "dist/index.js",
+	"scripts": {
+		"build": "tsc",
+		"start": "npm run build && node dist/index.js",
+		"dev": "nodemon src/index.ts"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/prajwalmahajan101/iMessage-backend.git"
+	},
+	"keywords": [
+		"GraphQl",
+		"Appollo-Server",
+		"Messaging",
+		"App",
+		"iMessage",
+		"Clone"
+	],
+	"author": "Prajwal Mahajan",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/prajwalmahajan101/iMessage-backend/issues"
+	},
+	"homepage": "https://github.com/prajwalmahajan101/iMessage-backend#readme",
+	"devDependencies": {
+		"@types/cors": "^2.8.14",
+		"@types/lodash.merge": "^4.6.7",
+		"@types/node": "^20.8.3",
+		"nodemon": "^3.0.1",
+		"prisma": "^5.4.1",
+		"ts-node": "^10.9.1",
+		"typescript": "^5.2.2"
+	},
+	"dependencies": {
+		"@apollo/server": "^4.9.4",
+		"@graphql-tools/schema": "^10.0.0",
+		"@prisma/client": "^5.4.1",
+		"body-parser": "^1.20.2",
+		"cors": "^2.8.5",
+		"dotenv": "^16.3.1",
+		"express": "^4.18.2",
+		"graphql": "^16.8.1",
+		"graphql-tag": "^2.12.6",
+		"lodash.merge": "^4.6.2",
+		"next-auth": "^4.23.2"
+	}
 }
