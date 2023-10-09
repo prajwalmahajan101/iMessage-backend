@@ -14,9 +14,9 @@ export interface ISession {
 
 export interface IUser {
   name: string;
-  email: string;
+  email?: string;
   image: string;
   id: string;
-  username: string;
-  emailVerified: boolean;
+  username?: string;
+  emailVerified?: ISODateString;
 }
